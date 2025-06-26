@@ -220,7 +220,7 @@ export function addSwiftGoogleCastAppDelegateDidFinishLaunchingWithOptions(
 
   return insertContentsInsideSwiftFunctionBlock(
     src,
-    'application didFinishLaunchingWithOptions:',
+    'application(_:didFinishLaunchingWithOptions:)',
     newSrc.join('\n'),
     { position: 'tailBeforeLastReturn' }
   )
